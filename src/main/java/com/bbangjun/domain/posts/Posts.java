@@ -1,5 +1,6 @@
 package com.bbangjun.domain.posts;
 
+import com.bbangjun.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor
 @Entity
-public class Posts { // 실제 DB의 테이블과 매칭될 클래스(=Entity 클래스) 89p
+public class Posts extends BaseTimeEntity { // 실제 DB의 테이블과 매칭될 클래스(=Entity 클래스) 89p
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
