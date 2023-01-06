@@ -40,4 +40,5 @@ dependencies {
     implementation('com.h2database:h2') // 별도의 설치가 필요 없이 프로젝트 의존성만으로 관리 가능 86p
     testImplementation('org.springframework.boot:spring-boot-starter-test') // testCompile -> testImplementation
     implementation('org.springframework.boot:spring-boot-starter-mustache') // 머스테치 스타터 의존성 추가 131p
+    implementation('org.springframework.boot:spring-boot-starter-oauth2-client:') // 스프링 시큐리티 관련 의존성 추가 179p
 }
