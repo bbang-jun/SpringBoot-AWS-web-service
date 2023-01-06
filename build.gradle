@@ -41,4 +41,5 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test') // testCompile -> testImplementation
     implementation('org.springframework.boot:spring-boot-starter-mustache') // 머스테치 스타터 의존성 추가 131p
     implementation('org.springframework.boot:spring-boot-starter-oauth2-client:') // 스프링 시큐리티 관련 의존성 추가 179p
+    implementation('org.springframework.session:spring-session-jdbc') // spring-session-jdbc 의존성 추가 202p
 }
